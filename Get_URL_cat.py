@@ -36,23 +36,9 @@ def get_url(pagenum):
             fw.write(movie_url +'\n')
     fw.close()
 
+if __name__ == '__main__':
+    get_url(14)
 
-
-get_url(14)
-
-f = open('URL_cat14.txt').readlines()
-print(len(f))
-
-
-# pagenum = [1,2,4,5,6,8,9,10,11,13,18,14]
-# pagename = {'Action':1,'Animation':2,'Art & Foreign':4
-#            'Classics':5,'Comedy':6,'Documentary':8
-#            'Drama':9,'Horror':10,'Kids & Family':11
-#            'Mystery':13,'Romance':18,'Sci-fi & Fantasy':14}
-# pagename = {'1':'Action','2':'Animation','4':'Art & Foreign'
-#            '5':'Classics','6':'Comedy','8':'Documentary'
-#            '9':'Drama','10':'Horror','11':'Kids & Family'
-#            '13':'Mystery','18':'Romance','14':'Sci-fi & Fantasy'}
-
-
+#f = open('URL_cat14.txt').readlines()
+#print(len(f))
 
